@@ -33,7 +33,7 @@ libraryDependencies ++= Seq(
   "org.json4s"             %% "json4s-ext"       % json4sVersion.value,
   "org.scalaj"             %% "scalaj-http"      % "1.1.0",
   "org.scalatest"          %% "scalatest"        % "2.1.6" % "test",
-  "org.slf4j"               % "slf4j-log4j12"    % "1.7.13",
+  "org.slf4j"               % "slf4j-log4j12"    % "1.7.5",
   "org.specs2"             %% "specs2"           % "2.3.13" % "test")
 
 //testOptions := Seq(Tests.Filter(s => Seq("Dev").exists(s.contains(_))))
